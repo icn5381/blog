@@ -4,12 +4,12 @@
 
 ## 页面
 
-- [首页](https://example.com/): 最新文章
-- [关于](https://example.com/about/): 博主介绍与联系方式
-- [隐私声明](https://example.com/privacy/): 数据收集说明
-- [RSS 全文](https://example.com/rss.xml): 完整内容订阅源
+- [首页](https://shiguang.dev/): 最新文章
+- [关于](https://shiguang.dev/about/): 博主介绍与联系方式
+- [隐私声明](https://shiguang.dev/privacy/): 数据收集说明
+- [RSS 全文](https://shiguang.dev/rss.xml): 完整内容订阅源
 
 ## 文章
 
-- [关于"触发器"，我要诚实一点](https://example.com/posts/dev-will-happen-first/): 规划里说功能要等信号，但我知道自己——开局大概率还是会先写一堆功能。把矛盾记在这里。
-- [开站词：为什么我要开这个博客](https://example.com/posts/hello-fuwari/): 不承诺周更，只承诺活着。这个博客的三条主线和一个原则。
+- [关于"触发器"，我要诚实一点](https://shiguang.dev/posts/dev-will-happen-first/): 规划里说功能要等信号，但我知道自己——开局大概率还是会先写一堆功能。把矛盾记在这里。
+- [开站词：为什么我要开这个博客](https://shiguang.dev/posts/hello-fuwari/): 不承诺周更，只承诺活着。这个博客的三条主线和一个原则。

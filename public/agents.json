@@ -1,16 +1,16 @@
 {
   "name": "拾光集博客",
   "description": "记录技术、AI 与个人的缓慢生长。中文个人博客，全文 RSS 与 llms.txt 可用。",
-  "url": "https://example.com/",
+  "url": "https://shiguang.dev/",
   "mcpServers": [
     {
       "name": "shiguang-blog-mcp",
       "description": "搜索与阅读本博客文章",
-      "url": "https://example.com/api/mcp",
+      "url": "https://shiguang.dev/api/mcp",
       "transport": "http"
     }
   ],
   "feeds": [
-    { "type": "rss", "url": "https://example.com/rss.xml" }
+    { "type": "rss", "url": "https://shiguang.dev/rss.xml" }
   ]
 }

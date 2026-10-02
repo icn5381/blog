@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://example.com/", // TODO: 换成你的域名,
+	site: "https://shiguang.dev/", // TODO: 换成你的域名,
 	base: "/",
 	trailingSlash: "always",
 	integrations: [

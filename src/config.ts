@@ -61,7 +61,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/yourname",
+			url: "https://github.com/icn5381",
 			external: true,
 		},
 	],
@@ -75,12 +75,12 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/yourname",
+			url: "https://github.com/icn5381",
 		},
 		{
 			name: "邮箱",
 			icon: "fa6-solid:envelope",
-			url: "mailto:you@example.com",
+			url: "mailto:978009095@qq.com",
 		},
 	],
 };

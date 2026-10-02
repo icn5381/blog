@@ -7,7 +7,7 @@ async function listMd(dir) {
 	return out.sort();
 }
 
-const SITE = process.env.SITE_URL || "https://example.com";
+const SITE = process.env.SITE_URL || "https://shiguang.dev";
 const POSTS_DIR = "src/content/posts";
 
 const files = await listMd(POSTS_DIR);

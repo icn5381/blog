@@ -6,8 +6,8 @@
 
 ## 联系我
 
-- 邮箱：`you@example.com`（TODO：换成你的邮箱）
-- GitHub：[yourname](https://github.com/yourname)
+- 邮箱：`978009095@qq.com`（TODO：换成你的邮箱）
+- GitHub：[icn5381](https://github.com/icn5381)
 
 有任何问题、想聊的话题、发现的文章错误，都欢迎来信——这个博客的评论和 AI 功能就是靠读者的来信信号点亮的。
 

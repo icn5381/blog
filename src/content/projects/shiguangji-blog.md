@@ -3,7 +3,7 @@ title: 拾光集（本博客）
 description: 你现在看到的这个站——Astro + Fuwari 定制，纯静态、机器友好，AI 摘要与搜索在构建期完成。
 published: 2026-10-02
 url: /
-repo: https://github.com/yourname
+repo: https://github.com/icn5381
 tech: [Astro, Tailwind, Cloudflare Pages, Pagefind]
 status: 进行中
 draft: false
