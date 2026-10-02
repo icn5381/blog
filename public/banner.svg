@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="480" fill="url(#sky)"/>
+  <rect width="1600" height="480" fill="url(#glow)"/>
+  <g fill="#e0e7ff" opacity="0.9">
+    <circle cx="1180" cy="120" r="3"/><circle cx="1290" cy="200" r="2"/><circle cx="1080" cy="260" r="2.4"/>
+    <circle cx="1400" cy="90" r="2"/><circle cx="980" cy="160" r="1.8"/><circle cx="1330" cy="330" r="2.2"/>
+    <circle cx="860" cy="80" r="1.6"/><circle cx="1220" cy="400" r="1.8"/><circle cx="1470" cy="240" r="1.6"/>
+  </g>
+  <g stroke="#818cf8" stroke-width="1.4" opacity="0.5" fill="none">
+    <path d="M0 420 Q 300 340 640 400 T 1600 380"/>
+    <path d="M0 450 Q 400 380 800 430 T 1600 410"/>
+  </g>
+  <text x="80" y="250" font-family="serif" font-size="88" fill="#e0e7ff" opacity="0.92">拾光集</text>
+  <text x="86" y="300" font-family="sans-serif" font-size="26" fill="#a5b4fc" opacity="0.85">记录技术、AI 与个人的缓慢生长</text>
+</svg>

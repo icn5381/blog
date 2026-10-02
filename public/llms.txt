@@ -1,0 +1,14 @@
+# 拾光集
+
+> 记录技术、AI 与个人的缓慢生长。中文个人博客，全文 RSS 输出。
+
+## 页面
+
+- [首页](https://example.com/): 最新文章
+- [关于](https://example.com/about/): 博主介绍与联系方式
+- [隐私声明](https://example.com/privacy/): 数据收集说明
+- [RSS 全文](https://example.com/rss.xml): 完整内容订阅源
+
+## 文章
+
+- [开站词：为什么我要开这个博客](https://example.com/posts/hello-fuwari/): 不承诺周更，只承诺活着。这个博客的三条主线和一个原则。

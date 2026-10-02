@@ -1,0 +1,16 @@
+name: 定时重建博客（排期文章到点上线）
+on:
+  schedule:
+    - cron: '0 14 * * *' # UTC 14:00 = 北京时间 22:00
+  workflow_dispatch:
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 触发 Cloudflare Pages 重建
+        env:
+          CF_DEPLOY_HOOK: ${{ secrets.CF_DEPLOY_HOOK }}
+        run: |
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$CF_DEPLOY_HOOK")
+          if [ "$CODE" != "200" ]; then echo "Deploy hook 调用失败 HTTP $CODE"; exit 1; fi
+          echo "已触发重建"

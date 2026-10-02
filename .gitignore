@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+scripts/.ai-summary-cache.json
+.DS_Store
+.env*
+wrangler.toml
