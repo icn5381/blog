@@ -209,3 +209,14 @@ h1, h2, h3, h4 {
 .markdown-content p {
     margin-block: 0.9em;
 }
+
+/* ===== 墨×朱 编辑部风格细节 ===== */
+
+/* 大标题字距呼吸（衬线更需要） */
+h1 { letter-spacing: 0.02em; }
+
+/* 文章标题下的元信息行，用小红点分隔 */
+.post-meta-divider { color: var(--primary); }
+
+/* 选中色跟朱红 */
+::selection { background: #c9402e; color: #f2efe9; }
