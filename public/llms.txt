@@ -11,4 +11,5 @@
 
 ## 文章
 
+- [关于"触发器"，我要诚实一点](https://example.com/posts/dev-will-happen-first/): 规划里说功能要等信号，但我知道自己——开局大概率还是会先写一堆功能。把矛盾记在这里。
 - [开站词：为什么我要开这个博客](https://example.com/posts/hello-fuwari/): 不承诺周更，只承诺活着。这个博客的三条主线和一个原则。
