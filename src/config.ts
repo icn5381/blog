@@ -41,15 +41,23 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
+		LinkPreset.Home,
+		LinkPreset.Archive,
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/yourname",
+			name: "项目",
+			url: "/projects/",
+			external: false,
 		},
 		{
-			name: "邮箱",
-			icon: "fa6-solid:envelope",
-			url: "mailto:you@example.com",
+			name: "友链",
+			url: "/friends/",
+			external: false,
+		},
+		LinkPreset.About,
+		{
+			name: "GitHub",
+			url: "https://github.com/yourname",
+			external: true,
 		},
 	],
 };
@@ -60,21 +68,14 @@ export const profileConfig: ProfileConfig = {
 	bio: "用 Obsidian 写作 · 与 AI 共建 · 在公开中成长",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/yourname",
+		},
+		{
+			name: "邮箱",
+			icon: "fa6-solid:envelope",
+			url: "mailto:you@example.com",
 		},
 	],
 };
