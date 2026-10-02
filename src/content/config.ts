@@ -34,7 +34,16 @@ const projectsCollection = defineCollection({
 		draft: z.boolean().optional().default(false),
 	}),
 });
+const notesCollection = defineCollection({
+	schema: z.object({
+		title: z.string(),
+		published: z.date(),
+		draft: z.boolean().optional().default(false),
+		tags: z.array(z.string()).optional().default([]),
+	}),
+});
 export const collections = {
+	notes: notesCollection,
 	posts: postsCollection,
 	spec: specCollection,
 	projects: projectsCollection,

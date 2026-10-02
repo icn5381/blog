@@ -58,7 +58,10 @@
 | 404 页 / 阅读进度条 / SVG 横幅 | ✅ | — |
 | projects 项目板块 | ✅ | collection + 卡片页 + 导航，草稿过滤 |
 | 友链板块 | ✅ | friends.json 数据驱动 + 卡片页 + 导航 |
-| AI 聊天 V1（预设提示词） | ✅ 代码就绪 | Worker（functions/api/chat.ts）+ 全站悬浮窗；配 DEEPSEEK_API_KEY 环境变量即激活；未配 key 友好降级 |
+| AI 聊天 V1.5（预设+文章检索注入） | ✅ 代码就绪 | Worker 自动检索相关文章片段注入上下文，回答末尾附参考链接；配 DEEPSEEK_API_KEY 即激活 |
+| MCP server | ✅ 代码就绪 | /api/mcp（stateless JSON-RPC）：search_posts / get_post 两工具 + /agents.json 发现入口；随部署即活 |
+| notes 短笔记板块 | ✅ | /notes/ 独立路由 + 导航入口，已发布第 1 条 |
+| 构建期搜索索引 | ✅ | /search-index.json（文章分块），聊天检索与 MCP 共用 |
 | 一键发布脚本 | ✅ | 发布博客.command，冲突检测+回滚+通知 |
 | 定时上线工作流 | ✅ | GitHub Actions 每日触发 CF Deploy Hook |
 

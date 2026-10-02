@@ -1,0 +1,33 @@
+---
+import { getCollection } from "astro:content";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+const notes = (await getCollection("notes", ({ data }) => data.draft !== true)).sort(
+	(a, b) => b.data.published.valueOf() - a.data.published.valueOf(),
+);
+---
+<MainGridLayout title="笔记" description="短想法与随手记">
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-6 md:px-9 py-6 relative w-full">
+            <h1 class="text-3xl font-bold mb-2 text-black/90 dark:text-white/90" style="font-family: 'Noto Serif SC', serif;">笔记</h1>
+            <p class="text-black/50 dark:text-white/50 mb-6">不成文的短想法。写满 3 条后这里会热闹起来。</p>
+            {notes.length === 0 ? (
+            <div class="rounded-xl border border-dashed border-black/15 dark:border-white/15 p-8 text-center text-black/40 dark:text-white/40">
+                还没有笔记。第一条可以很短——一句话也算。
+            </div>
+            ) : (
+            <div class="flex flex-col gap-3">
+                {notes.map((n) => (
+                <div class="rounded-xl border border-black/10 dark:border-white/10 p-4">
+                    <div class="flex items-baseline justify-between gap-3 mb-1">
+                        <div class="font-bold text-black/90 dark:text-white/90">{n.data.title}</div>
+                        <div class="text-xs text-black/40 dark:text-white/40 whitespace-nowrap">{n.data.published.toISOString().slice(0, 10)}</div>
+                    </div>
+                    <div class="text-sm text-black/70 dark:text-white/70">{n.body?.split("\n").filter(Boolean).slice(0, 3).join(" ")}</div>
+                </div>
+                ))}
+            </div>
+            )}
+        </div>
+    </div>
+</MainGridLayout>

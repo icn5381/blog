@@ -6,7 +6,7 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"check": "astro check",
-		"build": "node scripts/ai-summary.mjs && node scripts/gen-llms-txt.mjs && astro build",
+		"build": "node scripts/ai-summary.mjs && node scripts/gen-llms-txt.mjs && node scripts/gen-search-index.mjs && astro build",
 		"preview": "astro preview",
 		"astro": "astro",
 		"type-check": "tsc --noEmit --isolatedDeclarations",
