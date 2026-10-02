@@ -4,6 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
+import AIChat from "@components/AIChat.astro";
 import { profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
@@ -153,6 +154,8 @@ const bannerOffset =
 	>
 		<ConfigCarrier></ConfigCarrier>
 		<slot />
+
+		<AIChat></AIChat>
 
 		<!-- 阅读进度条 -->
 		<div id="read-progress" aria-hidden="true" style="position:fixed;top:0;left:0;height:2.5px;width:0%;z-index:9999;background:var(--primary);opacity:.9;transition:width .08s linear;pointer-events:none;"></div>

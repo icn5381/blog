@@ -22,7 +22,20 @@ const postsCollection = defineCollection({
 const specCollection = defineCollection({
 	schema: z.object({}),
 });
+const projectsCollection = defineCollection({
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		published: z.date(),
+		url: z.string().optional().default(""),
+		repo: z.string().optional().default(""),
+		tech: z.array(z.string()).optional().default([]),
+		status: z.enum(["进行中", "已完成", "维护中", "归档"]).optional().default("进行中"),
+		draft: z.boolean().optional().default(false),
+	}),
+});
 export const collections = {
 	posts: postsCollection,
 	spec: specCollection,
+	projects: projectsCollection,
 };

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "阮一峰的网络日志",
+    "url": "https://www.ruanyifeng.com/blog/",
+    "desc": "中文技术博客标杆，科技爱好者周刊",
+    "avatar": ""
+  },
+  {
+    "name": "DIYgod 的博客",
+    "url": "https://diygod.cc/",
+    "desc": "RSSHub 作者，技术与生活混合流",
+    "avatar": ""
+  },
+  {
+    "name": "Randy's Blog",
+    "url": "https://lutaonan.com/",
+    "desc": "个人成长型博客，前端与 AI 辅助编程",
+    "avatar": ""
+  },
+  {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/",
+    "desc": "LLM 时代最活跃的个人博主",
+    "avatar": ""
+  }
+]
