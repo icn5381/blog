@@ -209,3 +209,11 @@ h1, h2, h3, h4 {
 .markdown-content p {
     margin-block: 0.9em;
 }
+
+/* ===== 黑白单色基调：强调色去彩色（亮色模式近墨黑，暗色模式近纸白）===== */
+:root {
+    --primary: #1a1a1a;
+}
+:root.dark {
+    --primary: #e8e8e8;
+}
